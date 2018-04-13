@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane id="GridPane" prefHeight="200" prefWidth="500" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizgame.FXMLDocumentController">
+    <children>
+        <Button text="New Addition Question!" onAction="#handleButtonAction" prefHeight="50" prefWidth="250" fx:id="button" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Button text="New Subtraction Question!" onAction="#handleButton2Action" prefHeight="50" prefWidth="250" fx:id="button2" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <Button text="New Multiplication Question!" onAction="#handleButton3Action" prefHeight="50" prefWidth="250" fx:id="button3" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <Button text="New Division Question!" onAction="#handleButton4Action" prefHeight="50" prefWidth="250" fx:id="button4" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label  text= "Math Game" minHeight="16" minWidth="69" GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="label" />
+    </children>
+</GridPane>
